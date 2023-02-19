@@ -50,24 +50,62 @@
     .dropdown:hover .dropbtn {
       background-color: #3e8e41;
     }
-    h1, h2, h3, h4, h5, h6, p ,span,a{
-    margin-top: 0;
-    padding-right: 15px;
-    padding-left: 15px;
-    opacity:1;
-    z-index: 1;
-}
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span,
+    a {
+      margin-top: 0;
+      padding-right: 15px;
+      padding-left: 15px;
+      opacity: 1;
+      z-index: 1;
+    }
+
+    @media screen and (max-width:300px) {
+      .ma {
+        width: fit-content;
+      }
+    }
+
+    @media screen and (max-width:400px) {
+      .ma {
+        width: fit-content;
+      }
+    }
+
+    @media screen and (max-width:500px) {
+      .ma {
+        width: fit-content;
+      }
+    }
+
+    @media screen and (max-width:600px) {
+      .ma {
+        width: fit-content;
+      }
+    }
   </style>
 </head>
 
-<body>
-  <div>
-    <div style="display: flex; justify-content: space-around; color:black; background-color: burlywood; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg9zdHcsqi8V9K5a2uZlQxGlT1W4bhCSQv8g&usqp=CAU); ; background-repeat: no-repeat; background-size: 5000px 1000px;">
+<body class="ma">
+  <div class="mai">
+    <div class="fir"
+      style="display: flex; justify-content: space-around; color:black; background-color: burlywood; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg9zdHcsqi8V9K5a2uZlQxGlT1W4bhCSQv8g&usqp=CAU); ; background-repeat: no-repeat; background-size: 5000px 1000px;">
       <div>
         <h3><a href="#aboutMe">About</a></h3>
       </div>
+
       <div>
         <h3><a href="#education">Education</a></h3>
+      </div>
+      <div>
+        <h3><a href="#intern">Internship</a></h3>
       </div>
       <div>
         <h3><a href="#technical_skills">Technical Skills</a></h3>
@@ -80,7 +118,7 @@
         <h3><a href="#hobbies">Hobbies </a></h3>
       </div>
       <div>
-        <h3>Certificates</h3>
+        <h3><a href="#certificates">Certificates</a></h3>
       </div>
       <div>
         <div class="dropdown">
@@ -94,12 +132,13 @@
       </div>
 
     </div>
-    <div class="jumbotron text-center" style="background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://miro.medium.com/max/1400/1*lfQchaxIezklDHw6VF_GHw.jpeg); background-repeat: no-repeat; background-size: 1900px 340px; opacity: 0.75;">
-      <div>
-        <img src="./Screenshot_2023-02-11-11-56-26-25_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg" width="250px" height="250px" style=" z-index:10;border-radius: 20%; position: absolute; left: 100px; top: 60px;">
-      </div>
+
+
+    <div class="jumbotron text-center"
+      style="background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://miro.medium.com/max/1400/1*lfQchaxIezklDHw6VF_GHw.jpeg); background-repeat: no-repeat; background-size: 1900px 340px; opacity: 0.75;">
+
       <h1>ABISHEK CHAKRABORTY</h1>
-      
+
       <p>
       <h3><span style="color:brown">Email-Id</span>:<a href="ac.abhishek22@gmail.com"
           target="_blank">ac.abhishek22@gmail.com</a>&nbsp&nbsp&nbsp&nbsp <span
@@ -111,7 +150,7 @@
       </p>
       <p></p>
     </div>
-    <div class="container" >
+    <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <h2><a id="aboutMe">ABOUT ME:</a></h2>
@@ -132,6 +171,7 @@
     </div>
     <br><br>
     <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-sm-4">
           <h3>LinkedIn Profile</h3>
@@ -151,218 +191,317 @@
     </div>
 
 
-<br><br>
+    <br><br>
 
-<div class="container">
-  <h2><a id="education">EDUCATION DETAILS SCHOOL</a></h2>
+    <div class="container">
+      <h2><a id="education">EDUCATION DETAILS SCHOOL</a></h2>
 
-  <table class="table">
-    <thead>
-      <tr>
-        <th>S.No</th>
-        <th>SCHOOL</th>
-        <th>BOARD</th>
-        <th>DEGREE</th>
-        <th>PERCENTAGE</th>
-        <th>YEAR</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="success">
-        <td>1</td>
-        <td>JIS College Of Engineering</td>
-        <td>-</td>
-        <td>Bachelor of Technology</td>
-        <td>80</td>
-        <td>2019-2023</td>
-      </tr>
-      <tr class="success">
-        <td>2</td>
-        <td>India International School, Asansol,West Bengal</td>
-        <td>CBSE</td>
-        <td>High School</td>
-        <td>73.6</td>
-        <td>2019</td>
-      </tr>
-      <tr class="success">
-        <td>3</td>
-        <td>Saini School Goalpara,Goalpara,Assam</td>
-        <td>CBSE</td>
-        <td>High School</td>
-        <td>76</td>
-        <td>2017</td>
-      </tr>
-
-    </tbody>
-  </table>
-</div>
-<br><br>
-<div class="container">
-  <h2>
-    <a id="technical_skills">TECHNICAL SKILLS</a>
-  </h2>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>S.No</th>
-        <th>SKILL</th>
-        <th>LEVEL</th>
-
-
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="warning">
-        <td>1</td>
-        <td>C</td>
-        <td>Intermediate</td>
-
-      </tr>
-    <tbody>
-      <tr class="warning">
-        <td>2</td>
-        <td>Java</td>
-        <td>Intermediate</td>
-
-      </tr>
-    <tbody>
-      <tr class="success">
-        <td>3</td>
-        <td>Html5</td>
-        <td>Advance</td>
-
-      </tr>
-    <tbody>
-      <tr class="warning">
-        <td>4</td>
-        <td>Css3</td>
-        <td>Intermediate</td>
-
-      </tr>
-    <tbody>
-      <tr class="warning">
-        <td>5</td>
-        <td>JavsScript</td>
-        <td>Intermediate</td>
-
-      </tr>
-    <tbody>
-      <tr class="warning">
-        <td>6</td>
-        <td>ReactJs</td>
-        <td>Intermediate</td>
-
-      </tr>
-    <tbody>
-      <tr class="info">
-        <td>7</td>
-        <td>Nodejs</td>
-        <td>Novice</td>
-
-      </tr>
-    <tbody>
-      <tr class="warning">
-        <td>8</td>
-        <td>Git</td>
-        <td>Intermediate</td>
-
-      </tr>
-    </tbody>
-
-  </table>
-  <div class="container">
-    <h2><a id="projects">PROJECTS</a></h2>
-    <table class="table">
-      <thead>
-        <tr>
-  
-          <th>S.NO</th>
-          <th>Project Name</th>
-          <th>Start Date</th>
-          <th>Ene Date</th>
-          <th>Technologies Used</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="success">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>SCHOOL</th>
+            <th>BOARD</th>
+            <th>DEGREE</th>
+            <th>PERCENTAGE</th>
+            <th>YEAR</th>
+            <th>Result Link</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr class="success">
             <td>1</td>
-            <td>Library Management System</td>
-            <td>15-08-2022</td>
-            <td>16-12-2022</td>
-            <td>Html,Css,JavaScript,Reactjs</td>
+            <td>JIS College Of Engineering</td>
+            <td>-</td>
+            <td>Bachelor of Technology</td>
+            <td>80</td>
+            <td>2019-2023</td>
+            <td><a href="https://drive.google.com/file/d/15JsLBruZgrtJEbjt7dxZThMZmHtjHvgg/view?usp=share_link"
+                target="_blank">College Result:</a></td>
+          </tr>
+          <tr class="primary">
+            <td>2</td>
+            <td>India International School, Asansol,West Bengal</td>
+            <td>CBSE</td>
+            <td>High School</td>
+            <td>73.6</td>
+            <td>2019</td>
+            <td><a href="https://drive.google.com/file/d/1jn3PBds17HwV0OuchwLFXDRStOL2Y5nX/view?usp=share_link"
+                target="_blank">12th Result:</a></td>
           </tr>
 
-          <td>2</td>
-          <td>Tic-Tac-Toe Application</td>
-          <td>1-04-2022</td>
-          <td>5-06-2022</td>
-          <td>Html,Css,JavaScript,ReactJs</td>
-        </tr>
-       
-        <tr class="success">
-          <td>3</td>
-          <td>Aerophonics System</td>
-          <td>17-12-2020</td>
-          <td>19-11-2021</td>
-          <td>Electronics Components Used</td>
-        </tr>
-  
-      </tbody>
-    </table>
-    
-  </div>
-  <div class="container">
-    <h2><a id="projects"> <a id="hobbies">HOBBIES</a></a></h2>
-    <table class="table">
-      <thead>
-        <tr>
-  
-          <th>S.NO</th>
-          <th>Hobby Name</th>
-          
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="success">
+
+
+          <tr class="success">
+            <td>3</td>
+            <td>Saini School Goalpara,Goalpara,Assam</td>
+            <td>CBSE</td>
+            <td>High School</td>
+            <td>76</td>
+            <td>2017</td>
+            <td><a href="https://drive.google.com/file/d/1R9NUTSaeIOEm36nSo_nKVAeThw_8QRAy/view?usp=share_link"
+                target="_blank"> 10th Result:</a></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <br><br>
+    <div class="container">
+      <h2><a id="intern">INTERNSHIP</a></h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>COMPANY</th>
+            <th>START DATE</th>
+            <th>END DATE</th>
+            <th>LOCATION</th>
+            <th>RESPONSIBILITY</th>
+            <th>CERTIFICATE LINK</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr class="success">
             <td>1</td>
-            <td>Coding</td>
-           
-          </tr >
-       <tr class="success">
-          <td>2</td>
-          <td>Riding Bike</td>
-          
-        </tr>
-       
-        <tr class="success">
-          <td>3</td>
-          <td>Playing BasketBall</td>
-         
-        </tr>
-        <tr class="success">
-          <td>4</td>
-          <td>Playing vollyBall</td>
-         
-        </tr>
-        <tr class="success">
-          <td>5</td>
-          <td>Playing Computer Games</td>
-         
-        </tr>
-        <tr class="success">
-          <td>6</td>
-          <td>Travelling</td>
-         
-        </tr>
-  
-      </tbody>
-    </table>
-    
-  </div>
+            <td>highradius</td>
+            <td>28-01-2022</td>
+            <td>13-04-2022</td>
+            <td>remote</td>
+            <td>Mostly the Fronted part using html,css,js and reactjs</td>
+            <td><a href="https://drive.google.com/file/d/1azXmH9uXUfeuvcsyepNN_pAh1LMCH5FQ/view?usp=share_link"
+                target="_blank"> Click to see the certificate</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br><br>
+    <div class="container">
+      <h2>
+        <a id="technical_skills">TECHNICAL SKILLS</a>
+      </h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>SKILL</th>
+            <th>LEVEL</th>
 
-</div>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="success">
+            <td>1</td>
+            <td>C</td>
+            <td>Intermediate</td>
+
+          </tr>
+        <tbody>
+          <tr class="primary">
+            <td>2</td>
+            <td>Java</td>
+            <td>Intermediate</td>
+
+          </tr>
+        <tbody>
+          <tr class="success">
+            <td>3</td>
+            <td>Html5</td>
+            <td>Advance</td>
+
+          </tr>
+        <tbody>
+          <tr class="primary">
+            <td>4</td>
+            <td>Css3</td>
+            <td>Intermediate</td>
+
+          </tr>
+        <tbody>
+          <tr class="success">
+            <td>5</td>
+            <td>JavsScript</td>
+            <td>Intermediate</td>
+
+          </tr>
+        <tbody>
+          <tr class="primary">
+            <td>6</td>
+            <td>ReactJs</td>
+            <td>Intermediate</td>
+
+          </tr>
+        <tbody>
+          <tr class="success">
+            <td>7</td>
+            <td>Nodejs</td>
+            <td>Novice</td>
+
+          </tr>
+        <tbody>
+          <tr class="primary">
+            <td>8</td>
+            <td>Git</td>
+            <td>Intermediate</td>
+
+          </tr>
+        </tbody>
+
+      </table>
+      <br><br>
+      <div class="container">
+        <h2><a id="projects">PROJECTS</a></h2>
+        <table class="table">
+          <thead>
+            <tr>
+
+              <th>S.NO</th>
+              <th>PROJECT NAME</th>
+              <th>START DATE</th>
+              <th>END DATE</th>
+              <th>TECHNOLOGIES USED</th>
+              <th>LINK</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="success">
+
+              <td>1</td>
+              <td>Library Management System</td>
+              <td>15-08-2022</td>
+              <td>16-12-2022</td>
+              <td>Html,Css,JavaScript,Reactjs</td>
+            </tr>
+            <tr class="primary">
+              <td>2</td>
+              <td>Tic-Tac-Toe Application</td>
+              <td>1-04-2022</td>
+              <td>5-06-2022</td>
+              <td>Html,Css,JavaScript,ReactJs</td>
+            </tr>
+
+            <tr class="success">
+              <td>3</td>
+              <td>Aerophonics System</td>
+              <td>17-12-2020</td>
+              <td>19-11-2021</td>
+              <td>Electronics Components Used</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+      <br><br>
+      <div class="container">
+        <h2><a id="certificates">CERTIFICATES</a></h2>
+        <table class="table">
+          <thead>
+            <tr>
+
+              <th>S.NO</th>
+              <th>CERTIFICATE NAME</th>
+              <th>START DATE</th>
+              <th>END DATE</th>
+              <th>CERTIFICATE LINK</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="success">
+            <tr class="success">
+              <td>1</td>
+              <td>Java Certificate From Udemy</td>
+              <td>1-01-2021</td>
+              <td>16-04-2021</td>
+              <td><a href="https://drive.google.com/file/d/1bFoouYVgJFRf24vHhx44AC6Z-W0oeYD5/view?usp=share_link"
+                  target="_blank">Click To see My Certificate</a></td>
+            </tr>
+            <tr class="primary">
+              <td>2</td>
+              <td>Data Structure in Java From udemy</td>
+              <td>17-04-2022</td>
+              <td>01-07-2021</td>
+              <td><a href="https://drive.google.com/file/d/1bI0nsTi3NvJ6B0zFa45x7XPTKlf2Ilns/view?usp=share_link"
+                  target="_blank">Click To see My Certificate</a></td>
+            </tr>
+
+            <tr class="success">
+              <td>3</td>
+              <td>Web Developement certificate From Internshalla</td>
+              <td>19-04-2021</td>
+              <td>19-07-2021</td>
+              <td><a href="https://drive.google.com/file/d/1b2xcxw0U35Z5OLP1NZ4lInnEfWgjdl2i/view?usp=share_link"
+                  target="_blank">Click To see My Certificate</a></td>
+            </tr>
+            <tr class="primary">
+              <td>4</td>
+              <td>Reactjs Certificate From Internshalla From Internshalla</td>
+              <td>17-05-2022</td>
+              <td>16-08-2022</td>
+              <td><a href="https://drive.google.com/file/d/1b2fiYyZfDdmOQi8luMIjq_AxYDCLBAoa/view?usp=share_link"
+                  target="_blank">Click To see My Certificate</a></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+      <br><br>
+      <div class="container">
+        <h2><a id="projects"> <a id="hobbies">HOBBIES</a></a></h2>
+        <table class="table">
+          <thead>
+            <tr class="success">
+
+              <th>S.NO</th>
+              <th>HOBBY NAME</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="primary">
+
+              <td>1</td>
+              <td>Coding</td>
+
+            </tr>
+            <tr class="success">
+              <td>2</td>
+              <td>Riding Bike</td>
+
+            </tr>
+
+            <tr class="primary">
+              <td>3</td>
+              <td>Playing BasketBall</td>
+
+            </tr>
+            <tr class="success">
+              <td>4</td>
+              <td>Playing vollyBall</td>
+
+            </tr>
+            <tr class="primary">
+              <td>5</td>
+              <td>Playing Computer Games</td>
+
+            </tr>
+            <tr class="success">
+              <td>6</td>
+              <td>Travelling</td>
+
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+      <div class="container">
+        <h2><a id="lang"> <a id="hobbies">LANGUAGES KNOWN</a></a></h2>
+
+      </div>
+      
+    </div>
 </body>
 
 </html>
